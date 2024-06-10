@@ -1,0 +1,53 @@
+/* João Victor Santos Ruas */
+
+body {
+    background-color: #AAE5A4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    -webkit-box-shadow: -6px 7px 24px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 7px 24px -8px rgba(0,0,0,0.75);
+    box-shadow: -6px 7px 24px -8px rgba(0,0,0,0.75);
+}
+.carousel img {
+    width: 100%;
+    display: none;
+}
+.carousel img.active {
+    display: block;
+}
+    
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 10px 11px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}

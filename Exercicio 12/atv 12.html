@@ -24,16 +24,12 @@
 
     <script>
         document.getElementById("meuFormulario").addEventListener("submit", function(event){
-    event.preventDefault(); // Impede o envio padrão do formulário
-    
-    // Aqui você pode adicionar código para enviar os dados para o servidor, se necessário
-    
-    // Exibe o alerta de envio com sucesso usando SweetAlert2
+    event.preventDefault();
     Swal.fire({
       icon: 'success',
       title: 'Envio com sucesso!',
       showConfirmButton: false,
-      timer: 1500 // fecha automaticamente após 1.5 segundos
+      timer: 1500 
     });
   });
     </script>

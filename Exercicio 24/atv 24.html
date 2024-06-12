@@ -1,0 +1,29 @@
+<!-- João Victor Santos Ruas -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atv 24.css">
+    <script src="atv 24.js"></script>
+    <title>Atividade 24</title>
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <h1>Reprodutor de Áudio</h1>
+            <input type="file" id="audioFile" accept="audio/*">
+            <label for="audioFile">Escolher arquivo</label>
+            <div id="fileName"></div>
+            <audio id="audioPlayer"></audio>
+            <div id="timeRemaining"></div>
+            <div class="controls">
+                <button onclick="playAudio()">Play</button>
+                <button onclick="pauseAudio()">Pause</button>
+                <button onclick="stopAudio()">Stop</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

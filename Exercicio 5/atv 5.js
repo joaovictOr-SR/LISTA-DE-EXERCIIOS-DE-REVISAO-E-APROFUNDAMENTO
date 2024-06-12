@@ -13,7 +13,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         errorMessage.style.display = 'block';
     } else {
         errorMessage.style.display = 'none';
-        // Aqui você pode adicionar o código para enviar o formulário, por exemplo, via AJAX.
         alert('Formulário enviado com sucesso!');
         document.getElementById('contactForm').reset();
     }
